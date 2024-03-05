@@ -14,7 +14,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        "custom-black" : "#202020"
+      },
+    },
   },
   plugins: [
     addVariablesForColors,
