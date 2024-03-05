@@ -1,11 +1,9 @@
 import { Fade } from "react-awesome-reveal";
-import Lottie from "lottie-react";
-import anime from "./assets/animattion.json";
 import down from "./assets/down.svg";
 
 export function HeroSection() {
 	return (
-		<div className="h-[50rem] w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center flex-col overflow-hidden">
+		<div className="h-screen w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center flex-col overflow-hidden">
 			<div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
 
 			<div className=" text-white mx-8 mt-10 lg:flex justify-center items-center">
@@ -24,7 +22,7 @@ export function HeroSection() {
 
 						<div className="text-lg lg:text-2xl">
 							<p>An adept frontend developer,</p>
-							<p> I meticulously blend creativity and precision to</p>
+							<p>meticulously blend creativity and precision to</p>
 							<p>
 								architect immersive digital landscapes that deeply engage
 								users
