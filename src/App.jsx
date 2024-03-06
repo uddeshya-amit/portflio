@@ -1,9 +1,9 @@
 import About from "./About";
-import HeroSection from "./hero";
+import  HeroSection  from "./hero";
 
 function App() {
 	return (
-		<div className=" snap-y snap-mandatory  ">
+		<div className=" snap-y snap-mandatory scroll-smooth ">
 			<div className="snap-center ">
 				<HeroSection />
 			</div>
