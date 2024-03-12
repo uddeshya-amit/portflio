@@ -17,7 +17,7 @@ import postgres from "./assets/postgresql.svg";
 
 function Skills() {
 	return (
-		<div className="h-screen  text-white overflow-hidden lg:px-8">
+		<div className="text-white overflow-hidden lg:px-8">
 			<div className="mt-14  px-8">
 				<h1
 					className="text-3xl bg-gradient-to-r from-gray-400 via-gray-200 to-white bg-clip-text text-transparent 
@@ -25,10 +25,10 @@ function Skills() {
 					My Tech Skills
 				</h1>
 			</div>
-			<div className="px-8 mt-16 grid grid-cols-2">
+			<div className="px-8 mt-12 lg:mt-16 lg:grid lg:grid-cols-2">
 				<div className="flex  flex-col  items-center ">
 					<div className=" mb-10">
-						<p className="text-4xl font-semibold">programming languages</p>
+						<p className=" text-2xl lg:text-4xl font-semibold">programming languages</p>
 					</div>
 					<div className="flex gap-14 ">
 						{[
@@ -59,11 +59,11 @@ function Skills() {
 						})}
 					</div>
 				</div>
-				<div className="flex  flex-col  items-center ">
+				<div className=" mt-10 flex  flex-col  items-center lg:mt-0 ">
 					<div className=" mb-10">
-						<p className="text-4xl font-semibold">web dev</p>
+						<p className=" text-2xl lg:text-4xl font-semibold">web dev</p>
 					</div>
-					<div className="grid grid-cols-3 gap-14">
+					<div className="grid grid-cols-3 gap-12 lg:gap-14">
 						{[
 							{
 								name: "HTML",
@@ -107,9 +107,9 @@ function Skills() {
 					</div>
 				</div>
 
-				<div className="flex  flex-col  items-center  mt-12">
+				<div className="flex  flex-col  items-center mt-10 lg:mt-16">
 					<div className="">
-						<p className="text-4xl font-semibold"> databases</p>
+						<p className="text-2xl lg:text-4xl font-semibold"> databases</p>
 					</div>
 					<div className="grid grid-cols-3 mt-10 gap-14">
 						{[
@@ -140,9 +140,9 @@ function Skills() {
 						})}
 					</div>
 				</div>
-				<div className="flex  flex-col  items-center mt-12">
+				<div className="flex  flex-col  items-center mt-10 lg:mt-16">
 					<div className=" ">
-						<p className="text-4xl font-semibold">dev tools</p>
+						<p className="text-2xl lg:text-4xl font-semibold">dev tools</p>
 					</div>
 					<div className="grid grid-cols-3 mt-10 gap-14">
 						{[

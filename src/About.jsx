@@ -5,7 +5,7 @@ import anime from "./assets/animattion.json";
 
 const About = () => {
 	return (
-		<div className="h-screen overflow-hidden lg:px-8">
+		<div className="overflow-hidden lg:px-8">
 			<div className="mt-14 px-8 ">
 				<h1 className=" text-3xl bg-gradient-to-r from-gray-400 via-gray-200 to-white bg-clip-text text-transparent 
                    lg:text-6xl font-bold ">

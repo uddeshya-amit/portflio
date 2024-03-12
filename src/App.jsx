@@ -4,15 +4,15 @@ import  HeroSection  from "./hero";
 
 function App() {
 	return (
-		<div className=" snap-y snap-mandatory scroll-smooth ">
-			<div className="snap-center ">
+		<div className=" snap-y snap-mandatory">
+			<div className=" h-screen snap-center ">
 				<HeroSection />
 			</div>
 
-			<div className=" snap-center">
+			<div className="h-screen snap-center">
 				<About />
 			</div>
-			<div>
+			<div className="h-screen snap-center">
 				<Skills />
 			</div>
 		</div>
