@@ -1,4 +1,5 @@
 import About from "./About";
+import Skills from "./Skills";
 import  HeroSection  from "./hero";
 
 function App() {
@@ -10,6 +11,9 @@ function App() {
 
 			<div className=" snap-center">
 				<About />
+			</div>
+			<div>
+				<Skills />
 			</div>
 		</div>
 	);

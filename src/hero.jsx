@@ -1,12 +1,11 @@
 import { Fade } from "react-awesome-reveal";
-import { Image } from "react";
 import down from "./assets/down.svg";
 import github from "./assets/github.svg";
 import linkedin from "./assets/linkedin.svg";
 import twitter from "./assets/twitter.svg";
 import mail from "./assets/mail.svg";
 import instagram from "./assets/instagram.svg";
-import resume from "./assets/Uddeshya resume.pdf"
+import resume from "./assets/Uddeshya resume.pdf";
 
 function HeroSection() {
 	return (

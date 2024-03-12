@@ -2,11 +2,15 @@ import React from "react";
 import Lottie from "lottie-react";
 import anime from "./assets/animattion.json";
 
+
 const About = () => {
 	return (
 		<div className="h-screen overflow-hidden lg:px-8">
-			<div className="mt-32 px-8">
-				<h1 className=" text-3xl bg-gradient-to-r from-gray-400 via-gray-200 to-white bg-clip-text text-transparent  lg:text-6xl font-bold ">About Me</h1>
+			<div className="mt-14 px-8 ">
+				<h1 className=" text-3xl bg-gradient-to-r from-gray-400 via-gray-200 to-white bg-clip-text text-transparent 
+                   lg:text-6xl font-bold ">
+					About Me
+				</h1>
 			</div>
 			<div className="grid grid-rows-2 lg:grid-cols-2 ">
 				<div className="px-8 mt-8  text-lg text-gray-300 font-semibold order-last lg:order-first lg:mt-16 lg:text-2xl">
