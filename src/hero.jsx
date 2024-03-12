@@ -9,8 +9,8 @@ import resume from "./assets/Uddeshya resume.pdf";
 
 function HeroSection() {
 	return (
-		<div className="h-screen bg-black bg-white bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center  flex-col ">
-			<div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+		<div className="h-screen bg-black  bg-grid-white/[0.2]  relative flex items-center  flex-col ">
+			<div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
 			<div className=" mt-10 mb-20  lg:mr-24 ">
 				{/* social icons */}
 				<div className="flex gap-8 lg:gap-12 invert">
