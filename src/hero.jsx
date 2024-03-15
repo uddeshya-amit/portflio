@@ -7,7 +7,7 @@ import mail from "./assets/mail.svg";
 import instagram from "./assets/instagram.svg";
 import resume from "./assets/Uddeshya resume.pdf";
 
-function HeroSection() {
+function HeroSection({ scrollToAbout }) {
 	return (
 		<div className="h-screen bg-black  bg-grid-white/[0.2]  relative flex items-center  flex-col ">
 			<div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
@@ -18,10 +18,10 @@ function HeroSection() {
 						cascade
 						triggerOnce
 						direction="down"
-						delay={500}
+						delay={800}
 						duration={1000}
 						damping={0.3}>
-						<a href="https://github.com/uddeshya-amit">
+						<a target="_blank" href="https://github.com/uddeshya-amit">
 							<img
 								className=" hover:scale-125 transition-all duration-125 "
 								src={github}
@@ -30,7 +30,7 @@ function HeroSection() {
 								alt="github icon"
 							/>
 						</a>
-						<a href="https://www.linkedin.com/in/uddeshya05/">
+						<a target="_blank" href="https://www.linkedin.com/in/uddeshya05/">
 							<img
 								className=" hover:scale-125 transition-all duration-150 "
 								src={linkedin}
@@ -39,7 +39,7 @@ function HeroSection() {
 								alt="linkedin icon"
 							/>
 						</a>
-						<a href="https://x.com/Uddeshya_4u">
+						<a target="_blank" href="https://x.com/Uddeshya_4u">
 							<img
 								className=" hover:scale-125 transition-all duration-150"
 								src={twitter}
@@ -48,7 +48,9 @@ function HeroSection() {
 								alt="twitter icon"
 							/>
 						</a>
-						<a href="https://instagram.com/uddeshya_srivastava__">
+						<a
+							target="_blank"
+							href="https://instagram.com/uddeshya_srivastava__">
 							<img
 								className=" hover:scale-125 transition-all duration-150"
 								src={instagram}
@@ -57,7 +59,7 @@ function HeroSection() {
 								alt="instagram icon"
 							/>
 						</a>
-						<a href="mailto:uddeshyasrivastava05@gmail.com">
+						<a target="_blank" href="mailto:uddeshyasrivastava05@gmail.com">
 							<img
 								className=" hover:scale-125 transition-all duration-150"
 								src={mail}
@@ -75,10 +77,10 @@ function HeroSection() {
 					<Fade
 						cascade
 						triggerOnce
-						direction="left"
+						direction="up"
 						delay={500}
 						duration={1000}
-						damping={0.3}>
+						damping={0.5}>
 						<h1 className=" text-3xl font-bold lg:text-6xl">
 							Hey, I'm{" "}
 							<span className="bg-gradient-to-r from-blue-600 via-red-400 to-red-500 bg-clip-text text-transparent lg:text-6xl">
@@ -116,7 +118,9 @@ function HeroSection() {
 			</div>
 
 			<div className="invert animate-bounce absolute  bottom-28 lg:bottom-10">
-				<img className="size-8 " src={down} alt="" />
+				<button onClick={scrollToAbout}>
+					<img className="size-8 " src={down} alt="" />
+				</button>
 			</div>
 		</div>
 	);
