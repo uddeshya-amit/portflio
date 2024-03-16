@@ -27,7 +27,7 @@ function Skills() {
 			</div>
 			<div className="px-8 mt-12 lg:mt-16 lg:grid lg:grid-cols-2">
 				<div className="flex  flex-col  lg:items-center ">
-					<div className=" mb-10">
+					<div className=" mb-4 lg:mb-8">
 						<p className=" text-xl lg:text-4xl font-semibold">Programming</p>
 					</div>
 					<div className="flex gap-14 ">
@@ -59,8 +59,8 @@ function Skills() {
 						})}
 					</div>
 				</div>
-				<div className=" mt-10 flex  flex-col  lg:items-center lg:mt-0 ">
-					<div className=" mb-10">
+				<div className=" mt-8 flex  flex-col  lg:items-center lg:mt-0 ">
+					<div className=" mb-4 lg:mb-8">
 						<p className=" text-xl lg:text-4xl font-semibold">Web dev</p>
 					</div>
 					<div className="grid grid-cols-3 gap-12 lg:gap-14">
@@ -107,11 +107,11 @@ function Skills() {
 					</div>
 				</div>
 
-				<div className="flex  flex-col  lg:items-center mt-10 lg:mt-16">
-					<div className="">
+				<div className="flex  flex-col  lg:items-center mt-8 lg:mt-16">
+					<div className="mb-4 lg:mb-8">
 						<p className="text-xl lg:text-4xl font-semibold"> Databases</p>
 					</div>
-					<div className="grid grid-cols-3 mt-10 gap-14">
+					<div className="grid grid-cols-3  gap-14">
 						{[
 							{
 								name: "SQL",
@@ -140,11 +140,11 @@ function Skills() {
 						})}
 					</div>
 				</div>
-				<div className="flex  flex-col  lg:items-center mt-10 lg:mt-16">
-					<div className=" ">
+				<div className="flex  flex-col  lg:items-center mt-8 lg:mt-16">
+					<div className=" mb-4 lg:mb-8 ">
 						<p className="text-xl lg:text-4xl font-semibold">Dev tools</p>
 					</div>
-					<div className="grid grid-cols-3 mt-10 gap-14">
+					<div className="grid grid-cols-3  gap-14">
 						{[
 							{
 								name: "git",

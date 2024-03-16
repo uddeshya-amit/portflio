@@ -20,7 +20,7 @@ function App() {
 			<div ref={aboutRef} className="h-screen  snap-start">
 				<About />
 			</div>
-			<div className="h-full lg:h-screen  snap-start">
+			<div className="h-screen  snap-start">
 				<Skills />
 			</div>
 			<div className="h-screen snap-center overflow-y-scroll">
