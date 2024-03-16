@@ -9,7 +9,7 @@ const Project = (props) => {
 
 			<div className="flex  justify-between p-5">
 				<div>
-					<h1 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+					<h1 className="mb-2 text-2xl font-bold tracking-tight text-white">
 						{props.title}
 					</h1>
 				</div>
@@ -30,7 +30,7 @@ const Project = (props) => {
 				</div>
 			</div>
 			<div className="mx-5 pb-5">
-				<p className="mb-2 font-normal text-gray-700 dark:text-gray-400">
+				<p className="mb-2 font-normal text-gray-400">
 					{props.desc}
 				</p>
 			</div>
