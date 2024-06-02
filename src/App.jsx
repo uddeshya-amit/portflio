@@ -23,7 +23,7 @@ function App() {
 			<div className="h-screen  snap-start">
 				<Skills />
 			</div>
-			<div className="h-screen snap-center overflow-y-scroll">
+			<div className=" scrolbar-hide h-screen snap-center overflow-y-scroll ">
 				<Projects />
 			</div>
 		</div>

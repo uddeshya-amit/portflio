@@ -5,7 +5,7 @@ import linkedin from "./assets/linkedin.svg";
 import twitter from "./assets/twitter.svg";
 import mail from "./assets/mail.svg";
 import instagram from "./assets/instagram.svg";
-import resume from "./assets/Uddeshya resume.pdf";
+import resume from "./assets/Resume.pdf";
 
 function HeroSection({ scrollToAbout }) {
 	return (
