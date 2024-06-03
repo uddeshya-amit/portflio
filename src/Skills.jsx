@@ -21,7 +21,7 @@ function Skills() {
 			<div className="mt-14">
 				<h2
 					className="text-3xl bg-gradient-to-r from-gray-400 via-gray-200 to-white bg-clip-text text-transparent 
-                   lg:text-6xl font-bold">
+                   lg:text-6xl font-bold py-2.5">
 					My Tech Skills
 				</h2>
 			</div>
@@ -144,7 +144,7 @@ function Skills() {
 					<div className=" mb-4 lg:mb-8 ">
 						<p className="text-xl lg:text-4xl font-semibold">Dev tools</p>
 					</div>
-					<div className="grid grid-cols-3  gap-14">
+					<div className="grid grid-cols-3  gap-14 p-2">
 						{[
 							{
 								name: "git",

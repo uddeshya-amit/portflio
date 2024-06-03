@@ -12,7 +12,7 @@ function App() {
 	};
 
 	return (
-		<div className="overflow-y-scroll scrollbar-hide snap-y snap-mandatory h-[100vh] w-[100%]">
+		<div className="overflow-y-scroll scrollbar-hide md:snap-y snap-mandatory h-[100vh] w-[100%]">
 			<div className=" h-screen snap-start">
 				<HeroSection scrollToAbout={scrollToAbout} />
 			</div>
@@ -23,7 +23,7 @@ function App() {
 			<div className="h-screen  snap-start">
 				<Skills />
 			</div>
-			<div className=" scrolbar-hide h-screen snap-center overflow-y-scroll ">
+			<div className=" scrolbar-hide h-screen snap-center ">
 				<Projects />
 			</div>
 		</div>
