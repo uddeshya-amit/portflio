@@ -1,33 +1,17 @@
-import About from "./About";
-import Skills from "./Skills";
-import HeroSection from "./hero";
-import Projects from "./Projects";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import HeroSection from "./components/hero";
+import Projects from "./components/Projects";
+
 import { useRef } from "react";
+import Home from "./Home/HOme";
 
 function App() {
-	const aboutRef = useRef(null);
-
-	const scrollToAbout = () => {
-		aboutRef.current.scrollIntoView({ behavior: "smooth" });
-	};
-
-	return (
-		<div className="overflow-y-scroll scrollbar-hide md:snap-y snap-mandatory h-[100vh] w-[100%]">
-			<div className=" h-screen snap-start">
-				<HeroSection scrollToAbout={scrollToAbout} />
-			</div>
-
-			<div ref={aboutRef} className="h-screen  snap-start">
-				<About />
-			</div>
-			<div className="h-screen  snap-start">
-				<Skills />
-			</div>
-			<div className=" scrolbar-hide h-screen snap-center ">
-				<Projects />
-			</div>
-		</div>
-	);
+  return (
+    <>
+      <Home />
+    </>
+  );
 }
 
 export default App;
