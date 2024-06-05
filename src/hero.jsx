@@ -96,7 +96,7 @@ function HeroSection({ scrollToAbout }) {
 							<p>A skilled frontend developer,</p>
 							<p>who mix creativity and precision to craft digital</p>
 							<p>
-								experiences that grab people's attention and keep them hooked.
+								experiences that grab people's attention and keep them hooked forever.
 							</p>
 						</div>
 						<div className="text-white mt-20  ">
