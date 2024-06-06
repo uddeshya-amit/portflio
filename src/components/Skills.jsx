@@ -44,7 +44,7 @@ function Skills() {
               },
             ].map((lang, i) => {
               return (
-                <div>
+                <div key={i}>
                   <img
                     src={lang.src}
                     key={i}
@@ -89,7 +89,7 @@ function Skills() {
               },
             ].map((lang, i) => {
               return (
-                <div>
+                <div key={i}>
                   <img
                     src={lang.src}
                     key={i}
@@ -125,7 +125,7 @@ function Skills() {
               },
             ].map((lang, i) => {
               return (
-                <div>
+                <div key={i}>
                   <img
                     src={lang.src}
                     key={i}
@@ -158,7 +158,7 @@ function Skills() {
               },
             ].map((lang, i) => {
               return (
-                <div>
+                <div key={i}>
                   <img
                     src={lang.src}
                     key={i}
