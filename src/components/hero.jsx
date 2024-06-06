@@ -1,5 +1,5 @@
 import { Fade } from "react-awesome-reveal";
-import SocialMediaIcons from "./socialMediaIcons";
+import SocialMediaIcons from "./SocialMediaIcons";
 
 import down from "../assets/down.svg";
 
