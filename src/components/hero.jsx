@@ -7,7 +7,7 @@ import resume from "../assets/Resume.pdf";
 
 function HeroSection({ scrollToAbout }) {
   return (
-    <div className="relative flex h-screen flex-col items-center bg-black bg-grid-white/[0.2]">
+    <div className="relative flex h-dvh  flex-col items-center bg-black bg-grid-white/[0.2]">
       <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
       <div className="mb-20 mt-10 lg:mr-24">
         {/* social icons */}
@@ -24,7 +24,7 @@ function HeroSection({ scrollToAbout }) {
             duration={1000}
             damping={0.5}
           >
-            <h1 className="text-4xl font-bold lg:text-7xl">
+            <h1 className="text-3xl font-bold lg:text-7xl">
               Hey, I'm
               <span className="ml-3 bg-gradient-to-r from-blue-600 via-red-400 to-red-500 bg-clip-text text-transparent lg:text-6xl">
                 Uddeshya.
@@ -32,9 +32,9 @@ function HeroSection({ scrollToAbout }) {
             </h1>
 
             <div className="mt-3 flex flex-col items-center justify-center text-lg font-semibold text-gray-400 lg:text-xl">
-              <p>Developer in the daylight,</p>
-              <p>anime fan in the</p>
-              <p>moonlight.</p>
+              <p>Full stack developer</p>
+              <p>proficient in web technologies.</p>
+              
             </div>
             <div className="relative mt-8 text-white">
               <div className="flex items-center justify-center gap-4">

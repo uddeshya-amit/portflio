@@ -13,7 +13,7 @@ const About = () => {
       <div className="grid grid-rows-2 lg:grid-cols-2">
         <div className="px- order-last mt-8 text-lg font-normal text-gray-300 lg:order-first lg:mx-20 lg:mt-16 lg:px-0 lg:text-xl">
           <p className="">
-            I'm a frontend web-developer with a passion for coding and
+            I'm a web-developer with a passion for coding and
             technology, constantly seeking opportunities to learn and innovate
             in the digital world.{" "}
           </p>
